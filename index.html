@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreya | IT Undergraduate &amp; Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Shreya Bangar, an Information Technology undergraduate exploring web development, programming and technology through creative projects.">
+
+<meta property="og:title" content="Shreya | IT Undergraduate &amp; Aspiring Software Developer">
+<meta property="og:description" content="Portfolio of Shreya Bangar, an Information Technology undergraduate exploring web development, programming and technology through creative projects.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<div class="bg-scene" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-blob bg-blob--one"></div>
+  <div class="bg-blob bg-blob--two"></div>
+  <div class="bg-particles" id="bgParticles"></div>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="Shreya, home">
+      <span class="nav-logo__bracket">&lt;</span>SHREYA.BUILD()<span class="nav-logo__bracket">/&gt;</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="nav-link is-active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#journey" class="nav-link" data-section="journey">Journey</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to light mode" aria-pressed="false">
+        <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.4M12 19.1v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+
+      <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-eyebrow" data-reveal>IT Undergraduate &amp; Aspiring Software Developer</p>
+
+        <h1 class="hero-name" data-reveal>
+          <span class="hero-name__script">Shreya Bangar</span>
+        </h1>
+
+        <p class="hero-tagline" data-reveal>Quietly curious. Constantly building.</p>
+
+        <p class="hero-desc" data-reveal>
+          I enjoy turning ideas into interactive digital experiences while continuously learning, exploring and growing in the world of technology.
+        </p>
+
+        <div class="hero-actions" data-reveal>
+          <a href="#projects" class="btn btn--primary">Explore My Work</a>
+          <a href="#contact" class="btn btn--ghost">Let's Connect</a>
+        </div>
+      </div>
+
+      <div class="hero-workspace" id="heroWorkspace">
+        <div class="hero-visual" id="heroVisual" aria-hidden="true">
+          <div class="hv-ring hv-ring--outer"></div>
+          <div class="hv-orbit hv-orbit--1"><span class="hv-dot hv-dot--red"></span></div>
+          <div class="hv-orbit hv-orbit--2"><span class="hv-dot hv-dot--ember"></span></div>
+          <div class="hv-orbit hv-orbit--3"><span class="hv-dot hv-dot--gold"></span></div>
+          <div class="hv-core">
+            <span class="hv-core__glyph">&lt;/&gt;</span>
+          </div>
+          <div class="hv-glow"></div>
+        </div>
+
+        <div class="floating-chip chip--html" style="--fx:-1; --fy:-1;">HTML</div>
+        <div class="floating-chip chip--css" style="--fx:1; --fy:-1;">CSS</div>
+        <div class="floating-chip chip--js" style="--fx:-1; --fy:1;">JavaScript</div>
+        <div class="floating-chip chip--cpp" style="--fx:1; --fy:1;">C++</div>
+        <div class="floating-chip chip--dsa" style="--fx:0; --fy:-1.3;">Data Structures</div>
+
+        <div class="terminal-card" aria-label="Currently learning">
+          <div class="terminal-card__bar">
+            <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+            <span class="terminal-card__title">shreya@portfolio:~</span>
+          </div>
+          <div class="terminal-card__body">
+            <p class="term-line"><span class="term-prompt">shreya@portfolio</span><span class="term-sep">:~$</span> currently_learning</p>
+            <ul class="term-list">
+              <li><span class="term-arrow">→</span> HTML</li>
+              <li><span class="term-arrow">→</span> CSS</li>
+              <li><span class="term-arrow">→</span> JavaScript</li>
+              <li><span class="term-arrow">→</span> C++</li>
+              <li><span class="term-arrow">→</span> Data Structures</li>
+            </ul>
+            <p class="term-status"><span class="term-status__dot"></span> status: building &amp; learning<span class="term-caret">_</span></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span class="scroll-cue__line"></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>Getting to know me</p>
+      <h2 class="section-heading" data-reveal>About <span class="script-accent">Me</span></h2>
+
+      <div class="about-grid">
+
+        <div class="about-photo" data-reveal>
+          <div class="photo-card">
+            <img src="images/shreya3.jpeg" alt="Photograph of Shreya" onerror="this.parentElement.classList.add('photo-card--empty'); this.style.display='none';">
+            <div class="photo-card__placeholder">Place a photo at<br><code>images/shreya-photo-2.jpg</code></div>
+          </div>
+        </div>
+
+        <div class="about-copy" data-reveal>
+          <p>
+            I'm an Information Technology undergraduate at IIPS, DAVV, Indore. I'm curious about how technology works and how it can be used to build meaningful solutions — I enjoy creating websites, exploring new tools, solving problems and turning ideas into real projects.
+          </p>
+          <p>
+            I'm still figuring out exactly where technology will take me, but I'm enjoying the process of learning, experimenting and improving, one project at a time.
+          </p>
+
+         
+        </div>
+
+      </div>
+
+      <div class="trait-grid" data-reveal>
+        <div class="trait-card">
+          <span class="trait-card__num">01</span>
+          <h3>Curious Learner</h3>
+          <p>Drawn to understanding how things work beneath the surface.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-card__num">02</span>
+          <h3>Problem Solver</h3>
+          <p>Comfortable sitting with a hard problem until it makes sense.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-card__num">03</span>
+          <h3>Creative Thinker</h3>
+          <p>Enjoys shaping ideas into something people can actually use.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-card__num">04</span>
+          <h3>Always Improving</h3>
+          <p>Treats every project as a chance to get a little better.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>What I'm working with</p>
+      <h2 class="section-heading" data-reveal>Skills</h2>
+      <p class="section-sub" data-reveal>Technologies and tools I'm learning and working with.</p>
+
+      <div class="skills-grid" data-reveal>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Programming</h3>
+          <div class="skill-card">
+            <div class="skill-card__row"><span>C</span><span class="skill-tag skill-tag--practicing">Practicing</span></div>
+            <div class="skill-card__row"><span>C++</span><span class="skill-tag skill-tag--practicing">Practicing</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Web Development</h3>
+          <div class="skill-card">
+            <div class="skill-card__row"><span>HTML</span><span class="skill-tag skill-tag--building">Building</span></div>
+            <div class="skill-card__row"><span>CSS</span><span class="skill-tag skill-tag--building">Building</span></div>
+            <div class="skill-card__row"><span>JavaScript</span><span class="skill-tag skill-tag--learning">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Computer Science</h3>
+          <div class="skill-card">
+            <div class="skill-card__row"><span>Data Structures</span><span class="skill-tag skill-tag--learning">Learning</span></div>
+            <div class="skill-card__row"><span>Algorithms</span><span class="skill-tag skill-tag--learning">Learning</span></div>
+            <div class="skill-card__row"><span>Object-Oriented Programming</span><span class="skill-tag skill-tag--practicing">Practicing</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Tools</h3>
+          <div class="skill-card">
+            <div class="skill-card__row"><span>VS Code</span><span class="skill-tag skill-tag--using">Using</span></div>
+            <div class="skill-card__row"><span>Git</span><span class="skill-tag skill-tag--learning">Learning</span></div>
+            <div class="skill-card__row"><span>GitHub</span><span class="skill-tag skill-tag--using">Using</span></div>
+            <div class="skill-card__row"><span>Canva</span><span class="skill-tag skill-tag--using">Using</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>Ideas in progress →</p>
+      <h2 class="section-heading" data-reveal>My Projects</h2>
+
+      <div class="filter-row" data-reveal role="tablist" aria-label="Filter projects">
+        <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
+        <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+
+        <article class="project-card" data-reveal data-tags="web frontend">
+          <div class="project-card__media">
+            <img src="images/cloud-and-crumb.jpg" alt="Preview of the Cloud &amp; Crumb cafe website" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="project-card__media-placeholder">images/cloud-and-crumb.jpg</div>
+            <span class="project-card__num">01</span>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__head">
+              <h3>Cloud &amp; Crumb</h3>
+              <span class="status-pill status-pill--progress">In Progress</span>
+            </div>
+            <p>A cozy and aesthetic cafe website focused on creating a warm and engaging digital experience for a modern cafe.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="YOUR_CLOUD_AND_CRUMB_GITHUB" class="btn btn--small btn--ghost is-disabled" aria-disabled="true" title="Link not added yet">View Details</a>
+              <a href="YOUR_CLOUD_AND_CRUMB_LIVE_LINK" class="btn btn--small btn--primary is-disabled" aria-disabled="true" title="Live link not added yet">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal data-tags="web frontend">
+          <div class="project-card__media">
+            <img src="images/dairy-app.jpg" alt="Preview of the Milk Dairy web application" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="project-card__media-placeholder">images/dairy-app.jpg</div>
+            <span class="project-card__num">02</span>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__head">
+              <h3>Milk Dairy Web Application</h3>
+              <span class="status-pill status-pill--progress">In Progress</span>
+            </div>
+            <p>A web application concept designed to make milk ordering and dairy management more convenient for customers and dairy businesses.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="YOUR_DAIRY_GITHUB" class="btn btn--small btn--ghost is-disabled" aria-disabled="true" title="Link not added yet">View Details</a>
+              <a href="YOUR_DAIRY_LIVE_LINK" class="btn btn--small btn--primary is-disabled" aria-disabled="true" title="Live link not added yet">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-card project-card--next" data-reveal data-tags="web frontend">
+          <span class="project-card__num">03</span>
+          <h3>Next one is loading</h3>
+          <p>More projects will land here as they're built.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="journey" id="journey">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>How I got here</p>
+      <h2 class="section-heading" data-reveal>Learning Journey</h2>
+
+      <div class="journey-layout">
+        <ol class="timeline" data-reveal>
+          <li class="timeline-item">
+            <span class="timeline-item__num">01</span>
+            <p>Started exploring programming</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-item__num">02</span>
+            <p>Learned C and C++</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-item__num">03</span>
+            <p>Started learning Data Structures &amp; Algorithms</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-item__num">04</span>
+            <p>Started Web Development</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-item__num">05</span>
+            <p>Built my first frontend projects</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-item__num">06</span>
+            <p>Currently exploring new technologies</p>
+          </li>
+        </ol>
+
+      </div>
+
+      <!-- Education -->
+      <div class="education" data-reveal>
+        <h3 class="education__heading">Education</h3>
+
+        <div class="edu-timeline">
+          <div class="edu-card edu-card--primary">
+            <p class="edu-card__degree">M.Tech Integrated, Information Technology</p>
+            <p class="edu-card__school">IIPS, DAVV, Indore</p>
+            <p class="edu-card__meta">Expected Graduation: 2030</p>
+          </div>
+          <div class="edu-card">
+            <p class="edu-card__degree">Class XII</p>
+            <p class="edu-card__school">Vidhyashree Academy</p>
+            <p class="edu-card__meta">2024–2025 · 78.8%</p>
+          </div>
+          <div class="edu-card">
+            <p class="edu-card__degree">Class X</p>
+            <p class="edu-card__school">Little Wonders Convent School</p>
+            <p class="edu-card__meta">2022–2023 · 88.8%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="achievements" data-reveal>
+        <h3 class="achievements__heading">Achievements</h3>
+        <div class="achievements__empty">
+          <p>More chapters coming...</p>
+          <p class="achievements__note">Currently building the skills and experiences that will become tomorrow's milestones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CURRENTLY EXPLORING / CAREER ============ -->
+  <section class="exploring" id="exploring">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>Where this might go</p>
+      <h2 class="section-heading" data-reveal>Currently Exploring</h2>
+      <p class="section-sub" data-reveal>Exploring the possibilities of software development, web development and technology.</p>
+
+      <div class="explore-grid" data-reveal>
+        <span class="explore-tag">Web Technologies</span>
+        <span class="explore-tag">UI/UX Design</span>
+        <span class="explore-tag">New Programming Concepts</span>
+        <span class="explore-tag">Real-World Projects</span>
+        <span class="explore-tag">Technology &amp; Digital Products</span>
+      </div>
+
+      <p class="explore-note" data-reveal>Still figuring out where technology will take me — and enjoying the process of finding out.</p>
+
+      <div class="interests" data-reveal>
+        <span class="interest-chip">Web Development</span>
+        <span class="interest-chip">UI/UX</span>
+        <span class="interest-chip">Programming</span>
+        <span class="interest-chip">Technology</span>
+        <span class="interest-chip">Creative Digital Projects</span>
+        <span class="interest-chip">Learning New Technologies</span>
+        <span class="interest-chip">Building Real-World Projects</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING STATEMENT ============ -->
+  <section class="statement">
+    <p class="statement__text" data-reveal>
+      Still learning.<br>
+      Still building.<br>
+      Just getting started.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <p class="section-eyebrow" data-reveal>Get in touch</p>
+      <h2 class="section-heading" data-reveal>Let's <span class="script-accent">Connect</span></h2>
+      <p class="section-sub" data-reveal>I'd love to connect, collaborate, learn and explore new ideas.</p>
+
+      <div class="contact-grid" data-reveal>
+        <a class="contact-card" href="mailto:shreyaabangar1804@gmail.com">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3.5 6.5h17v11h-17z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-card__label">Email</span>
+          <span class="contact-card__value">shreyaabangar1804@gmail.com</span>
+        </a>
+
+        <a class="contact-card" href="https://www.linkedin.com/in/shreya-bangar-591824374" target="_blank" rel="noopener noreferrer">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5" stroke="currentColor" stroke-width="1.5"/><path d="M8.2 10.2v6.3M8.2 7.7v.01M12 16.5v-3.7c0-1.4.9-2.3 2.1-2.3 1.2 0 1.9.9 1.9 2.3v3.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-card__label">LinkedIn</span>
+          <span class="contact-card__value">shreya-bangar</span>
+        </a>
+
+        <a class="contact-card is-disabled" href="YOUR_GITHUB_LINK" aria-disabled="true" title="GitHub link not added yet">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5c-5.2 0-9.5 4.3-9.5 9.6 0 4.2 2.7 7.8 6.5 9 .5.1.6-.2.6-.5v-1.8c-2.7.6-3.2-1.2-3.2-1.2-.4-1.1-1-1.4-1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.2-4.5-1.1-4.5-4.8 0-1.1.4-1.9 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9 9 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.6 0 3.7-2.3 4.6-4.5 4.8.4.3.7 1 .7 1.9v2.8c0 .3.2.6.6.5 3.8-1.3 6.5-4.9 6.5-9.1 0-5.3-4.3-9.6-9.5-9.6Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-card__label">GitHub</span>
+          <span class="contact-card__value">Add your GitHub link</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">SHREYA.BUILD()</span>
+      <p class="footer-tag">Turning curiosity into code, one project at a time.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/shreya-bangar-591824374" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="YOUR_GITHUB_LINK" class="is-disabled" aria-disabled="true">GitHub</a>
+      <a href="mailto:shreyaabangar1804@gmail.com">Email</a>
+    </div>
+
+    <p class="footer-copy">© 2026 Shreya Bangar</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
