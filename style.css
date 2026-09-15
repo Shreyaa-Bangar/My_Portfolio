@@ -748,7 +748,7 @@ section{ padding: 120px 0; position: relative; }
 #journey {
   position: relative;
   background: 
-    linear-gradient(rgba(7, 11, 22, 0.88), rgba(7, 11, 22, 0.92)),
+    linear-gradient(rgba(156, 161, 175, 0.88), rgba(7, 11, 22, 0.92)),
     url("images/shreya4.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
